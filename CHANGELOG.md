@@ -3,6 +3,7 @@
 
 ### 0.1.12
 
+* Messages are now stored serialized by default in MongoDB too, not just Syslog (#23).
 * Logger.log() no longer accepts invalid log levels (#26), to match PSR-3.
 * Loggers no longer modify the message context (#25).
 * Removed incorrect `readme` clause in `package.json`.
